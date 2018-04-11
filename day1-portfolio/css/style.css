@@ -1,6 +1,7 @@
 body {
     background: #333;
     color: #fff; 
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -12,7 +13,7 @@ body {
     background: url("../images/home.jpeg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 700px; 
+    min-height: 500px; 
 }
 #home-section .dark-overlay {
     background-color: rgba(0, 0, 0, 0.7);
@@ -20,10 +21,10 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 700px; 
+    min-height: 500px; 
 }
 #home-section .home-inner {
-    padding-top: 150px; 
+    padding-top: 140px; 
 }
 #home-section .card-form {
     opacity: 0.8; 
@@ -34,4 +35,13 @@ body {
     padding: 4px;
     border-radius: 5px;
     font-size: 30px; 
+}
+
+#main-footer a {     
+    color: white;
+}
+#main-footer .fa {
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
 }
