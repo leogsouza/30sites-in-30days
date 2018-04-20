@@ -3,6 +3,7 @@
   background: url("../img/baloons.jpg");
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   min-height: 600px; }
   #showcase .primary-overlay {
     background: rgba(55, 146, 166, 0.5);
