@@ -1,14 +1,45 @@
-#showcase {
-  position: relative;
+body {
   background: url("../img/baloons.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
-  min-height: 600px; }
-  #showcase .primary-overlay {
+  background-position: center; }
+  body .primary-overlay {
     background: rgba(55, 146, 166, 0.5);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%; }
+
+.navbar {
+  opacity: 0.8; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+
+#showcase {
+  position: relative;
+  min-height: 400px; }
+  #showcase h1 {
+    font-family: 'Lobster', cursive; }
+
+#details {
+  background: rgba(249, 168, 37, 0.8); }
+  #details h3 {
+    font-family: "Lobster", cursive; }
+  #details .when-block {
+    background: rgba(49, 27, 146, 0.5); }
+  #details .where-block {
+    background: rgba(84, 110, 112, 0.5); }
+    #details .where-block h3 {
+      font-family: "Lobster", cursive; }
+
+#contact {
+  background: rgba(192, 215, 228, 0.829); }
+  #contact .card-form {
+    background: #e3cfc9; }
+  #contact form#form-contact input[type="text"], #contact form#form-contact input[type="email"], #contact form#form-contact textarea {
+    border: none;
+    background: #e3cfc9;
+    border-radius: 0;
+    border-bottom: 1px solid #666; }

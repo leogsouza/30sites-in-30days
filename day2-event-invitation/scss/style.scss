@@ -1,13 +1,15 @@
 $primary: #3292a6;
 $primary-overlay: rgba(55, 146, 166, 0.5);
+$color-when-block: rgba(49,27,146, 0.5);
+$color-where-block: rgba(84,110,112, 0.5);
+$color-contact-background: rgba(192, 215, 228, 0.829);
+$font-lobster: 'Lobster', cursive;
 
-#showcase {
-    position: relative;
+body {
     background: url("../img/baloons.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    min-height: 600px;
 
     .primary-overlay {
         background: $primary-overlay;
@@ -16,5 +18,57 @@ $primary-overlay: rgba(55, 146, 166, 0.5);
         left: 0;
         width: 100%;
         height: 100%;
+    }
+}
+
+.navbar {
+    opacity: 0.8;
+    .nav-item {
+        font-size: 1.4rem;
+        padding-right: 20px;
+    }
+}
+
+#showcase {
+    position: relative;
+    
+    min-height: 400px;
+    h1 {
+        font-family: 'Lobster', cursive;
+    }
+}
+
+#details {
+    background: rgba(249, 168, 37, 0.8);
+    h3 {
+        font-family: $font-lobster;
+    }
+
+    .when-block {
+        background: $color-when-block;
+        
+    }
+
+    .where-block {
+        background: $color-where-block;
+        h3 {
+            font-family: $font-lobster;
+        }
+    }
+}
+
+#contact {
+    background: $color-contact-background;
+    .card-form {
+        background: rgb(227, 207, 201)
+    }
+    form#form-contact {
+        input[type="text"], input[type="email"], textarea {
+            border: none;
+            background: rgb(227, 207, 201);
+            border-radius: 0;
+            border-bottom: 1px solid #666;
+        }
+
     }
 }
